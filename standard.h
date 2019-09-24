@@ -47,9 +47,11 @@ typedef                 int  word;  /* fastest type available */
 #ifndef align
 # define align(a) (((ub4)a+(sizeof(void *)-1))&(~(sizeof(void *)-1)))
 #endif /* align */
+/*
 #ifndef abs
 # define abs(a)   (((a)>0) ? (a) : -(a))
 #endif
+*/
 #define TRUE  1
 #define FALSE 0
 #define SUCCESS 0  /* 1 on VAX */
